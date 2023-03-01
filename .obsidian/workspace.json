@@ -61,14 +61,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Embeddings.md",
+                "file": "Data Science/Embeddings.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8add225c1c88acf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeddings.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Embeddings.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Embeddings.md"
+                "file": "README.md"
               }
             }
           }
@@ -195,11 +207,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1445aeb429301554",
+  "active": "c8add225c1c88acf",
   "lastOpenFiles": [
+    "Data Science/Embeddings.md",
+    "README.md",
     "Image/Pasted image 20230301203446.png",
     "Image/Pasted image 20230301202920.png",
-    "Embeddings.md",
     "Image/Elmo_embedding.gif",
     "Image/Elmo_embedding.gif.crdownload",
     "Image/Pasted image 20230301203221.png",
@@ -214,7 +227,6 @@
     "Image/Pasted image 20230225210732.png",
     "Image/Pasted image 20230225205525.png",
     "Image",
-    "Image/Pasted image 20230225205613.png",
     "Pasted image 20230225205432.png.md",
     "Data Science/Machine Learning",
     "Data Science",
