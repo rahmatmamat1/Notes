@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "0f9ff878deee50f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "9dbd759929502ee5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa1936a0536ac9cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Cloud/Data Warehouse.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b920ad925816b214",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Machine Learning/Model Bias and Variance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "afb44717e28976ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Machine Learning/Regression Evaluation Metrics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "30641f18a5352739",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Machine Learning/Classification Evaluation Metrics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "60ca3ab65ef65bc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Embeddings.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2a7795c65b963de1",
+    "type": "split",
+    "children": [
+      {
+        "id": "1bc5af1c0e875c46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1445aeb429301554",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9a9e427beb624f64",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6d4438a1d946a14e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "52792c3db2de6b1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "79df11a188d9a0ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11320c6e999c4dd5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Embeddings.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cfe79ae67058c057",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Embeddings.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f57ce80112655df3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "82c4c723cb337210",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Embeddings.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1445aeb429301554",
+  "lastOpenFiles": [
+    "Image/Pasted image 20230301203446.png",
+    "Image/Pasted image 20230301202920.png",
+    "Embeddings.md",
+    "Image/Elmo_embedding.gif",
+    "Image/Elmo_embedding.gif.crdownload",
+    "Image/Pasted image 20230301203221.png",
+    "Image/Pasted image 20230301203141.png",
+    "Image/Pasted image 20230301203109.png",
+    "Image/Pasted image 20230301202940.png",
+    "Data Science/Cloud/Data Warehouse.md",
+    "Data Science/Machine Learning/Classification Evaluation Metrics.md",
+    "Data Science/Machine Learning/Regression Evaluation Metrics.md",
+    "Data Science/Machine Learning/Model Bias and Variance.md",
+    "Pasted image 20230225210657.png",
+    "Image/Pasted image 20230225210732.png",
+    "Image/Pasted image 20230225205525.png",
+    "Image",
+    "Image/Pasted image 20230225205613.png",
+    "Pasted image 20230225205432.png.md",
+    "Data Science/Machine Learning",
+    "Data Science",
+    "Data Science/Cloud"
+  ]
+}
