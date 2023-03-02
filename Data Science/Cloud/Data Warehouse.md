@@ -1,3 +1,4 @@
+# Data Warehouse
 
 ![[Pasted image 20230225205525.png]]
 
@@ -116,33 +117,87 @@ To maintain the performance characteristics of a clustered table
 * Optimize your join patterns
 	* As a best practice, place the table with the largest number of rows first, followed by the table with the fewest rows, and then place the remaining tables by decreasing size.
 
-## **Internals**
+## **Code**
 
-![](https://lh4.googleusercontent.com/jivvoB5JmA5-svAbHYAW2dkigc3Ti-mZS2G4MQCzG4ZA9OxD5-GQdmuy2TxJpfErBMj9HEEW4W-pB5B4_vGPZMUkrBve-u9AFbOI78wVfxoFmCFCuxgIka4YQRl8J0GK57UZnBXAM3CaEtg8xpRglf1h_g=s2048)
+```sql
+-- Query public available table
+SELECT station_id, name FROM
+    bigquery-public-data.new_york_citibike.citibike_stations
+LIMIT 100;
+```
+Query public dataset in BigQuery
 
-![](https://lh6.googleusercontent.com/wrItTVBkixIdk2LkxnXeR8JDkFZ9tklxNuxCBRp2EMa-oYnhoO0BqeHREqgWhZ0GpFcF_JR6L5vrGZYxiTNTEWlINu9Qawcr6APcfw9artUZ8b_J4BhINN2V1zHCSkqKZudMaypC6uK3pOJvhmuDffEjGQ=s2048)
+```sql
+-- Creating external table referring to gcs path
+CREATE OR REPLACE EXTERNAL TABLE `taxi-rides-ny.nytaxi.external_yellow_tripdata`
+OPTIONS (
+  format = 'CSV',
+  uris = ['gs://nyc-tl-data/trip data/yellow_tripdata_2019-*.csv', 'gs://nyc-tl-data/trip data/yellow_tripdata_2020-*.csv']
+);
 
-![](https://lh3.googleusercontent.com/PpEJ_G9ra--bpzYNYzKcxjg4t1nmh9Sdqe4zCBRP0jF3nNCQ4EplRvEPSPECbjFpn2um_E9qlPEpXhFe4q6LCXeuiDmePdP4EZ218JhOn6gQCZ5_FWL9tpxnccraSbvTO5NOQ8wMJLC5xZis3ImvO1a4HA=s2048)
+-- Check yellow trip data
+SELECT * FROM `taxi-rides-ny.nytaxi.external_yellow_tripdata` limit 10;
+```
+Create `external_yellow_tripdata` table  in `nytaxi` database on `taxi-rides-ny` project id.
+
+```sql
+-- Create a non partitioned table from external table
+CREATE OR REPLACE TABLE taxi-rides-ny.nytaxi.yellow_tripdata_non_partitoned AS
+SELECT * FROM taxi-rides-ny.nytaxi.external_yellow_tripdata;
+
+-- Create a partitioned table from external table
+CREATE OR REPLACE TABLE taxi-rides-ny.nytaxi.yellow_tripdata_partitoned
+PARTITION BY
+  DATE(tpep_pickup_datetime) AS
+SELECT * FROM taxi-rides-ny.nytaxi.external_yellow_tripdata;
+```
+Create partitioned and non partitioned table to compare both of them
+
+```sql
+-- Impact of partition
+-- Scanning 1.6GB of data
+SELECT DISTINCT(VendorID)
+FROM taxi-rides-ny.nytaxi.yellow_tripdata_non_partitoned
+WHERE DATE(tpep_pickup_datetime) BETWEEN '2019-06-01' AND '2019-06-30';
+
+-- Scanning ~106 MB of DATA
+SELECT DISTINCT(VendorID)
+FROM taxi-rides-ny.nytaxi.yellow_tripdata_partitoned
+WHERE DATE(tpep_pickup_datetime) BETWEEN '2019-06-01' AND '2019-06-30';
+```
+Partitioned table give query optimization
+
+```sql
+-- Let's look into the partitons
+SELECT table_name, partition_id, total_rows
+FROM `nytaxi.INFORMATION_SCHEMA.PARTITIONS`
+WHERE table_name = 'yellow_tripdata_partitoned'
+ORDER BY total_rows DESC;
+```
+Take a look at the information schema and see partition.
+
+```sql
+-- Creating a partition and cluster table
+CREATE OR REPLACE TABLE taxi-rides-ny.nytaxi.yellow_tripdata_partitoned_clustered
+PARTITION BY DATE(tpep_pickup_datetime)
+CLUSTER BY VendorID AS
+SELECT * FROM taxi-rides-ny.nytaxi.external_yellow_tripdata;
+
+-- Query scans 1.1 GB
+SELECT count(*) as trips
+FROM taxi-rides-ny.nytaxi.yellow_tripdata_partitoned
+WHERE DATE(tpep_pickup_datetime) BETWEEN '2019-06-01' AND '2020-12-31'
+  AND VendorID=1;
+
+-- Query scans 864.5 MB
+SELECT count(*) as trips
+FROM taxi-rides-ny.nytaxi.yellow_tripdata_partitoned_clustered
+WHERE DATE(tpep_pickup_datetime) BETWEEN '2019-06-01' AND '2020-12-31'
+  AND VendorID=1;
+```
+Create Cluster table and compare to the partitioned table.
 
 
-## **ML in BigQuery**
-
-* Target audience Data analysts, managers
-* No need for Python or Java knowledge
-* No need to export data into a different system
-
-**Pricing**
-* Free
-	* 10 GB per month of data storage
-	* 1 TB per month of queries processed
-	* ML Create model step: First 10 GB per month is free
-
-![](https://lh3.googleusercontent.com/LPeQQ166E9aJQ-GYGNHwF5dzajSCyqpOlck1cQt2VHngpUQOvJU6voel-CFd85fcunwAES4T_LBiliJ1XydamASRiprVFj7ZZ0WSUH2Q2W3qEE63R_Wv5v508bHvsKbtj4WZSUQd2RxfA91XX9KCGm7xWA=s2048)
-
-**Flow**
-![](https://lh5.googleusercontent.com/9Dt6RzToEVXlpjOjDsiJMQ1ubE-SMLF5H96Hj_bSsjC5i5xNJTq4YeoQnCAxQdDZlmwEt8PB8OWWfScwK2YkBRTiQwx0SV4SlG-n4KCTuZHAuNW1FNd_kDVv1BEH_X62SvzpKSx6L9MmElijY1xDe-UEkg=s2048)
-
-**![](https://lh5.googleusercontent.com/qKRHiZUHJqXkPy1Ri9nXo9n_GoW8qJz7wiPuR6q3q392vQ0_BvCF4KF9G8ZlXPmLD2ZzI8pnHLmfSPvKDspw9HcQZ2S_0t7Z_cE93xh-w4zDR0nmnvGcEluYzcPtVk4cvfa3uvJGPuEqvUO_qYI6b2i15A=s2048)**
 
 ## **Reference**
 https://cloud.google.com/bigquery/docs/how-to
