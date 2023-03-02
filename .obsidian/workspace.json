@@ -4,143 +4,83 @@
     "type": "split",
     "children": [
       {
-        "id": "9dbd759929502ee5",
+        "id": "5fe8cc87509cdd6a",
         "type": "tabs",
         "children": [
           {
-            "id": "fa1936a0536ac9cc",
+            "id": "528c6a7c4dfea3b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Cloud/Data Warehouse.md",
+                "file": "Bootstrapping.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b920ad925816b214",
+            "id": "a6458dac27a303ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Machine Learning/Model Bias and Variance.md",
+                "file": "T-test.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "afb44717e28976ad",
+            "id": "71735373783ac3c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Machine Learning/Regression Evaluation Metrics.md",
+                "file": "Effect Size.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "30641f18a5352739",
+            "id": "51fa21218d61897f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Machine Learning/Classification Evaluation Metrics.md",
+                "file": "Power Analysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "60ca3ab65ef65bc5",
+            "id": "f35e3d613a81912b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Embeddings.md",
+                "file": "Confidence Interval.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c8add225c1c88acf",
+            "id": "e66473ea2b16fdce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba049b9afcd27c93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Boosting Algorithm.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "48e4c716915c24b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/Cloud/Data Warehouse.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "07de423fe7b38cea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/Cloud/BigQuery Architecture.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fb26585e0c9b8937",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/Cloud/Machine Learning in BigQuery.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "847797fcef32ee7b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Product Metrics.md",
+                "file": "Central Limit Theorem.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -206,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Product Metrics.md",
+                "file": "Central Limit Theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Product Metrics.md",
+                "file": "Central Limit Theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Product Metrics.md"
+                "file": "Central Limit Theorem.md"
               }
             }
           }
@@ -267,16 +207,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "847797fcef32ee7b",
+  "active": "e66473ea2b16fdce",
   "lastOpenFiles": [
-    "Data Science/Cloud/Machine Learning in BigQuery.md",
+    "Confidence Interval.md",
+    "Central Limit Theorem.md",
+    "Power Analysis.md",
+    "Effect Size.md",
+    "T-test.md",
+    "Bootstrapping.md",
     "Product Metrics.md",
+    "Data Science/Cloud/Machine Learning in BigQuery.md",
     "Data Science/Cloud/BigQuery Architecture.md",
     "Data Science/Cloud/Data Warehouse.md",
-    "Ensemble Method.md",
     "Boosting Algorithm.md",
     "README.md",
     "Data Science/Embeddings.md",
+    "Data Science/Machine Learning/Classification Evaluation Metrics.md",
+    "Data Science/Machine Learning/Regression Evaluation Metrics.md",
+    "Data Science/Machine Learning/Model Bias and Variance.md",
+    "Ensemble Method.md",
     "Image/Pasted image 20230301203446.png",
     "Image/Pasted image 20230301202920.png",
     "Image/Elmo_embedding.gif",
@@ -285,9 +234,6 @@
     "Image/Pasted image 20230301203141.png",
     "Image/Pasted image 20230301203109.png",
     "Image/Pasted image 20230301202940.png",
-    "Data Science/Machine Learning/Classification Evaluation Metrics.md",
-    "Data Science/Machine Learning/Regression Evaluation Metrics.md",
-    "Data Science/Machine Learning/Model Bias and Variance.md",
     "Pasted image 20230225210657.png",
     "Image/Pasted image 20230225210732.png",
     "Image/Pasted image 20230225205525.png",
