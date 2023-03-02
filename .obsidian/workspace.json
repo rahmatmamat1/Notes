@@ -126,9 +126,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "847797fcef32ee7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Product Metrics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -194,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Cloud/Machine Learning in BigQuery.md",
+                "file": "Product Metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Cloud/Machine Learning in BigQuery.md",
+                "file": "Product Metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -234,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Cloud/Machine Learning in BigQuery.md"
+                "file": "Product Metrics.md"
               }
             }
           }
@@ -255,10 +267,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1445aeb429301554",
+  "active": "847797fcef32ee7b",
   "lastOpenFiles": [
-    "Data Science/Cloud/BigQuery Architecture.md",
     "Data Science/Cloud/Machine Learning in BigQuery.md",
+    "Product Metrics.md",
+    "Data Science/Cloud/BigQuery Architecture.md",
     "Data Science/Cloud/Data Warehouse.md",
     "Ensemble Method.md",
     "Boosting Algorithm.md",
