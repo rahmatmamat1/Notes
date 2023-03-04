@@ -4,83 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "5fe8cc87509cdd6a",
+        "id": "c239b1198c5bd25c",
         "type": "tabs",
         "children": [
           {
-            "id": "528c6a7c4dfea3b7",
+            "id": "62ea058d175bce78",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bootstrapping.md",
+                "file": "Analytics Engineering.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a6458dac27a303ac",
+            "id": "6c91032316de22bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "T-test.md",
+                "file": "dbt.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "71735373783ac3c2",
+            "id": "c2ecb043cd2c200d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Effect Size.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51fa21218d61897f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Power Analysis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f35e3d613a81912b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Confidence Interval.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e66473ea2b16fdce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Central Limit Theorem.md",
+                "file": "Ace Data Science Interview.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -146,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Central Limit Theorem.md",
+                "file": "Ace Data Science Interview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Central Limit Theorem.md",
+                "file": "Ace Data Science Interview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Central Limit Theorem.md"
+                "file": "Ace Data Science Interview.md"
               }
             }
           }
@@ -207,8 +171,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e66473ea2b16fdce",
+  "active": "c2ecb043cd2c200d",
   "lastOpenFiles": [
+    "dbt.md",
+    "Ace Data Science Interview.md",
+    "Analytics Engineering.md",
+    "Data Modelling.md",
+    "ETL vs ELT.md",
+    "Boosting Algorithm.md",
+    "Data Engineering Zoomcamp",
+    "Image/Pasted image 20230303083003.png",
+    "Untitled.canvas",
+    "Data Science/Machine Learning/Classification Evaluation Metrics.md",
+    "Data Science/Cloud/Data Warehouse.md",
     "Confidence Interval.md",
     "Central Limit Theorem.md",
     "Power Analysis.md",
@@ -218,11 +193,8 @@
     "Product Metrics.md",
     "Data Science/Cloud/Machine Learning in BigQuery.md",
     "Data Science/Cloud/BigQuery Architecture.md",
-    "Data Science/Cloud/Data Warehouse.md",
-    "Boosting Algorithm.md",
     "README.md",
     "Data Science/Embeddings.md",
-    "Data Science/Machine Learning/Classification Evaluation Metrics.md",
     "Data Science/Machine Learning/Regression Evaluation Metrics.md",
     "Data Science/Machine Learning/Model Bias and Variance.md",
     "Ensemble Method.md",
@@ -236,7 +208,6 @@
     "Image/Pasted image 20230301202940.png",
     "Pasted image 20230225210657.png",
     "Image/Pasted image 20230225210732.png",
-    "Image/Pasted image 20230225205525.png",
     "Image",
     "Pasted image 20230225205432.png.md",
     "Data Science/Machine Learning",
