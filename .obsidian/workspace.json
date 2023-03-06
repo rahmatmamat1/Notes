@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c239b1198c5bd25c",
+        "id": "bea62751f39f0e5e",
         "type": "tabs",
         "children": [
           {
-            "id": "62ea058d175bce78",
+            "id": "bfa87e3eecdf7966",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analytics Engineering.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c91032316de22bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dbt.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c2ecb043cd2c200d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ace Data Science Interview.md",
+                "file": "dbt (data build tool).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ace Data Science Interview.md",
+                "file": "dbt (data build tool).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ace Data Science Interview.md",
+                "file": "dbt (data build tool).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ace Data Science Interview.md"
+                "file": "dbt (data build tool).md"
               }
             }
           }
@@ -171,11 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c2ecb043cd2c200d",
+  "active": "bfa87e3eecdf7966",
   "lastOpenFiles": [
-    "dbt.md",
-    "Ace Data Science Interview.md",
+    "aaaa.md",
+    "Template/notes.md",
+    "T-test.md",
+    "README.md",
+    "Template/template.md",
+    "dbt (data build tool).md",
+    "Template",
     "Analytics Engineering.md",
+    "Ace Data Science Interview.md",
     "Data Modelling.md",
     "ETL vs ELT.md",
     "Boosting Algorithm.md",
@@ -188,12 +169,10 @@
     "Central Limit Theorem.md",
     "Power Analysis.md",
     "Effect Size.md",
-    "T-test.md",
     "Bootstrapping.md",
     "Product Metrics.md",
     "Data Science/Cloud/Machine Learning in BigQuery.md",
     "Data Science/Cloud/BigQuery Architecture.md",
-    "README.md",
     "Data Science/Embeddings.md",
     "Data Science/Machine Learning/Regression Evaluation Metrics.md",
     "Data Science/Machine Learning/Model Bias and Variance.md",
