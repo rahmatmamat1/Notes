@@ -1,6 +1,6 @@
 **Title: dbt (data build tool)**
 **Created: 06-03-2023**
-**Tags:** #DataWarehouse #ELT #DataEngineering
+**Tags:** #DataWarehouse #ELT #ELT #DataEngineering #Cloud
 
 ## What is dbt?
 

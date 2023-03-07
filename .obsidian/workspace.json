@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3bfbcfcd4cae1d4c",
+        "id": "05a6b73d1de1dd50",
         "type": "tabs",
         "children": [
           {
-            "id": "c0b6d95ddbe7dc53",
+            "id": "935a957edb066257",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Setup dbt cloud with bigquery.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Setup dbt cloud with bigquery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Setup dbt cloud with bigquery.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Setup dbt cloud with bigquery.md"
+              }
             }
           }
         ]
@@ -138,38 +146,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c0b6d95ddbe7dc53",
+  "active": "935a957edb066257",
   "lastOpenFiles": [
-    "Data quality issues.md",
-    "dbt (data build tool).md",
-    "Data Modelling.md",
-    "aaaa.md",
     "Template/notes.md",
-    "T-test.md",
+    "Setup dbt cloud with bigquery.md",
+    "Fleeting Notes/T-test.md",
+    "Fleeting Notes/Ace Data Science Interview.md",
     "README.md",
+    "Fleeting Notes/Product Metrics.md",
+    "Fleeting Notes",
+    "Data Engineering Zoomcamp/dbt (data build tool).md",
+    "Data Engineering Zoomcamp/Analytics Engineering.md",
+    "Fleeting Notes/Ensemble Method.md",
+    "Data quality issues.md",
+    "Data Engineering Zoomcamp/Data Modelling.md",
+    "aaaa.md",
     "Template/template.md",
     "Template",
-    "Analytics Engineering.md",
-    "Ace Data Science Interview.md",
-    "ETL vs ELT.md",
-    "Boosting Algorithm.md",
+    "Fleeting Notes/ETL vs ELT.md",
+    "Fleeting Notes/Boosting Algorithm.md",
     "Data Engineering Zoomcamp",
     "Image/Pasted image 20230303083003.png",
     "Untitled.canvas",
     "Data Science/Machine Learning/Classification Evaluation Metrics.md",
     "Data Science/Cloud/Data Warehouse.md",
-    "Confidence Interval.md",
-    "Central Limit Theorem.md",
-    "Power Analysis.md",
-    "Effect Size.md",
-    "Bootstrapping.md",
-    "Product Metrics.md",
+    "Fleeting Notes/Confidence Interval.md",
+    "Fleeting Notes/Central Limit Theorem.md",
+    "Fleeting Notes/Power Analysis.md",
+    "Fleeting Notes/Effect Size.md",
+    "Fleeting Notes/Bootstrapping.md",
     "Data Science/Cloud/Machine Learning in BigQuery.md",
     "Data Science/Cloud/BigQuery Architecture.md",
     "Data Science/Embeddings.md",
     "Data Science/Machine Learning/Regression Evaluation Metrics.md",
-    "Data Science/Machine Learning/Model Bias and Variance.md",
-    "Ensemble Method.md",
     "Image/Pasted image 20230301203446.png",
     "Image/Pasted image 20230301202920.png",
     "Image/Elmo_embedding.gif",
