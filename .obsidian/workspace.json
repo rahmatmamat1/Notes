@@ -11,8 +11,12 @@
             "id": "76dcc5cd7d69db00",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Classification Evaluation Metrics.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Classification Evaluation Metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Classification Evaluation Metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Classification Evaluation Metrics.md"
+              }
             }
           },
           {
@@ -150,6 +158,8 @@
   },
   "active": "1445aeb429301554",
   "lastOpenFiles": [
+    "Data Science/Machine Learning/Regression Evaluation Metrics.md",
+    "Classification Evaluation Metrics.md",
     "Untitled.md",
     "Developing dbt models.md",
     "Fleeting Notes/Ace Data Science Interview.md",
@@ -175,13 +185,11 @@
     "Fleeting Notes/Boosting Algorithm.md",
     "Data Engineering Zoomcamp",
     "Image/Pasted image 20230303083003.png",
-    "Data Science/Machine Learning/Classification Evaluation Metrics.md",
     "Data Science/Cloud/Data Warehouse.md",
     "Fleeting Notes/Confidence Interval.md",
     "Fleeting Notes/Central Limit Theorem.md",
     "Fleeting Notes/Power Analysis.md",
     "Fleeting Notes/Effect Size.md",
-    "Fleeting Notes/Bootstrapping.md",
     "Image/Pasted image 20230301203446.png",
     "Image/Pasted image 20230301202920.png",
     "Image/Elmo_embedding.gif",
