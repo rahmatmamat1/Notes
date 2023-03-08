@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "36f9d390af82f48c",
+        "id": "1685d6d9ac44ca75",
         "type": "tabs",
         "children": [
           {
-            "id": "fe857f8ac2756487",
+            "id": "76dcc5cd7d69db00",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Developing dbt models.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Developing dbt models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Developing dbt models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Developing dbt models.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,17 +148,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fe857f8ac2756487",
+  "active": "1445aeb429301554",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2023-03-07 20.56.29.excalidraw.md",
+    "Untitled.md",
     "Developing dbt models.md",
+    "Fleeting Notes/Ace Data Science Interview.md",
+    "Excalidraw/Drawing 2023-03-07 20.56.29.excalidraw.md",
     "Untitled.canvas",
     "Data Engineering Zoomcamp/Setup dbt cloud with bigquery.md",
     "2023-03-07.md",
     "Excalidraw",
     "Template/notes.md",
     "Fleeting Notes/T-test.md",
-    "Fleeting Notes/Ace Data Science Interview.md",
     "README.md",
     "Fleeting Notes/Product Metrics.md",
     "Fleeting Notes",
