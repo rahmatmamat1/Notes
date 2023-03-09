@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7d69acd9d680769d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Classification Evaluation Metrics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e070dfaebb60de4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Model Evaluation in Time Series Forecasting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classification Evaluation Metrics.md",
+                "file": "Model Evaluation in Time Series Forecasting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Classification Evaluation Metrics.md",
+                "file": "Model Evaluation in Time Series Forecasting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Classification Evaluation Metrics.md"
+                "file": "Model Evaluation in Time Series Forecasting.md"
               }
             }
           },
@@ -138,12 +163,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,13 +180,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1445aeb429301554",
+  "active": "e070dfaebb60de4f",
   "lastOpenFiles": [
-    "Data Science/Machine Learning/Regression Evaluation Metrics.md",
     "Classification Evaluation Metrics.md",
-    "Untitled.md",
-    "Developing dbt models.md",
+    "Model Evaluation in Time Series Forecasting.md",
+    "Others/Product Metrics.md",
     "Fleeting Notes/Ace Data Science Interview.md",
+    "Data Engineering Zoomcamp/ETL vs ELT.md",
+    "Others",
+    "ROC-AUC and AUPRC.md",
+    "Image/Pasted image 20230309110026.png",
+    "Data Science/Machine Learning/Regression Evaluation Metrics.md",
+    "Developing dbt models.md",
     "Excalidraw/Drawing 2023-03-07 20.56.29.excalidraw.md",
     "Untitled.canvas",
     "Data Engineering Zoomcamp/Setup dbt cloud with bigquery.md",
@@ -171,7 +200,6 @@
     "Template/notes.md",
     "Fleeting Notes/T-test.md",
     "README.md",
-    "Fleeting Notes/Product Metrics.md",
     "Fleeting Notes",
     "Data Engineering Zoomcamp/dbt (data build tool).md",
     "Data Engineering Zoomcamp/Analytics Engineering.md",
@@ -181,15 +209,12 @@
     "aaaa.md",
     "Template/template.md",
     "Template",
-    "Fleeting Notes/ETL vs ELT.md",
     "Fleeting Notes/Boosting Algorithm.md",
     "Data Engineering Zoomcamp",
     "Image/Pasted image 20230303083003.png",
     "Data Science/Cloud/Data Warehouse.md",
     "Fleeting Notes/Confidence Interval.md",
     "Fleeting Notes/Central Limit Theorem.md",
-    "Fleeting Notes/Power Analysis.md",
-    "Fleeting Notes/Effect Size.md",
     "Image/Pasted image 20230301203446.png",
     "Image/Pasted image 20230301202920.png",
     "Image/Elmo_embedding.gif",
@@ -199,7 +224,6 @@
     "Image/Pasted image 20230301203109.png",
     "Image/Pasted image 20230301202940.png",
     "Pasted image 20230225210657.png",
-    "Image/Pasted image 20230225210732.png",
     "Image",
     "Data Science/Machine Learning",
     "Data Science",
