@@ -1,0 +1,1 @@
+https://medium.com/@nafemuhtasim98/data-scaling-techniques-for-machine-learning-a-complete-guide-with-mathematics-pros-and-cons-799d01ffb56e

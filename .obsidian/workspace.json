@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e070dfaebb60de4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Model Evaluation in Time Series Forecasting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "boos",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Model Evaluation in Time Series Forecasting.md",
+                "file": "Classification Evaluation Metrics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Model Evaluation in Time Series Forecasting.md",
+                "file": "Classification Evaluation Metrics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Model Evaluation in Time Series Forecasting.md"
+                "file": "Classification Evaluation Metrics.md"
               }
             }
           },
@@ -163,7 +151,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,13 +164,30 @@
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "periodic-notes:Open this week": false
     }
   },
-  "active": "e070dfaebb60de4f",
+  "active": "7d69acd9d680769d",
   "lastOpenFiles": [
+    "Personal/Monthly Review/2023 - Month 03.md",
+    "Personal/Weekly Review/2023 - Week 10.md",
+    "Personal/Monthly Review",
+    "Template/monthly_review.md",
+    "Template/weekly_review.md",
+    "Article to Read.md",
     "Classification Evaluation Metrics.md",
+    "Template/notes.md",
+    "2023-W10.md",
+    "Personal/Weekly Review",
+    "Personal",
+    "Untitled Kanban.md",
+    "test.md",
+    "Fleeting Notes/Boosting Algorithm.md",
+    "Fleeting Notes/Ensemble Method.md",
+    "Variable Scaling Technique.md",
+    "Developing dbt models.md",
     "Model Evaluation in Time Series Forecasting.md",
     "Others/Product Metrics.md",
     "Fleeting Notes/Ace Data Science Interview.md",
@@ -191,30 +196,18 @@
     "ROC-AUC and AUPRC.md",
     "Image/Pasted image 20230309110026.png",
     "Data Science/Machine Learning/Regression Evaluation Metrics.md",
-    "Developing dbt models.md",
     "Excalidraw/Drawing 2023-03-07 20.56.29.excalidraw.md",
     "Untitled.canvas",
     "Data Engineering Zoomcamp/Setup dbt cloud with bigquery.md",
     "2023-03-07.md",
     "Excalidraw",
-    "Template/notes.md",
     "Fleeting Notes/T-test.md",
     "README.md",
     "Fleeting Notes",
     "Data Engineering Zoomcamp/dbt (data build tool).md",
-    "Data Engineering Zoomcamp/Analytics Engineering.md",
-    "Fleeting Notes/Ensemble Method.md",
-    "Data quality issues.md",
-    "Data Engineering Zoomcamp/Data Modelling.md",
-    "aaaa.md",
-    "Template/template.md",
     "Template",
-    "Fleeting Notes/Boosting Algorithm.md",
     "Data Engineering Zoomcamp",
     "Image/Pasted image 20230303083003.png",
-    "Data Science/Cloud/Data Warehouse.md",
-    "Fleeting Notes/Confidence Interval.md",
-    "Fleeting Notes/Central Limit Theorem.md",
     "Image/Pasted image 20230301203446.png",
     "Image/Pasted image 20230301202920.png",
     "Image/Elmo_embedding.gif",
@@ -224,9 +217,6 @@
     "Image/Pasted image 20230301203109.png",
     "Image/Pasted image 20230301202940.png",
     "Pasted image 20230225210657.png",
-    "Image",
-    "Data Science/Machine Learning",
-    "Data Science",
-    "Data Science/Cloud"
+    "Image"
   ]
 }
