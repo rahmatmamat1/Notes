@@ -1,11 +1,12 @@
 **Title: Classification Evaluation Metrics**
 **Created: 09-03-2023**
-**Tags:**
+**Tags:** #Metrics #Classification #MachineLearning
 
 ## Classification Evaluation Metrics
 here are some commonly used classification metrics with explanations:
 
-1. **Accuracy**: The accuracy metric is the proportion of correctly classified samples among all samples in the dataset. It is calculated by dividing the number of correct predictions by the total number of predictions made.$$Accuracy = \frac{TP + TN}{TP + TN + FP + FN}$$
+1. **Accuracy**: The accuracy metric is the proportion of correctly classified samples among all samples in the dataset. It is calculated by dividing the number of correct predictions by the total number of predictions made.
+	$$Accuracy = \frac{TP + TN}{TP + TN + FP + FN}$$
 	where $TP$ = true positives, $TN$ = true negatives, $FP$ = false positives, $FN$ = false negatives.
 
 2. **Precision**: Precision is the proportion of true positives (correctly predicted positive samples) among all samples that are predicted as positive. It measures the ability of the classifier to avoid false positives. It is calculated by dividing the number of true positives by the sum of true positives and false positives.$$Precision = \frac{TP}{TP + FP}$$
@@ -28,9 +29,11 @@ These metrics can help you evaluate the performance of your classification model
 Pros and cons of commonly used classification metrics:
 
 1. **Accuracy**: 
+	
 	Pros:
 	-   Easy to understand and interpret
 	-   Useful for datasets with balanced classes
+	
 	Cons:
 	-   Not suitable for datasets with imbalanced classes
 	-   Can be misleading in the presence of class imbalance
