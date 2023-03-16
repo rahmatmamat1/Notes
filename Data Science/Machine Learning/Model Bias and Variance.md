@@ -10,7 +10,7 @@
 
 Examples of models with **low bias and high variance**, as well as **high bias and low variance**:
 1. **Low bias and high variance**: A complex decision tree model with many branches and leaves can be an example of a model with low bias and high variance. This is because the model can fit the training data very well, but may not generalize well to new data because it has learned the noise in the training data. Another example, **nearest neighbor models and neural networks.**
-2. **High bias and low variance**: A [[linear regression]] model with few features can be an example of a model with high bias and low variance. This is because the model is too simple to capture the complex patterns in the data, resulting in a higher error on the training and test data, but it is less affected by noise in the data, leading to lower variance. Another example, **logistic regression and partial least squares**.
+2. **High bias and low variance**: A [[Linear Regression]] model with few features can be an example of a model with high bias and low variance. This is because the model is too simple to capture the complex patterns in the data, resulting in a higher error on the training and test data, but it is less affected by noise in the data, leading to lower variance. Another example, **logistic regression and partial least squares**.
 
 **Model bias and variance can often be in opposition to one another**; in order to achieve low bias, models tend to demonstrate high variance (and vice versa). **The variance-bias trade-off is a common theme in statistics.**
 

@@ -8,31 +8,53 @@
         "type": "tabs",
         "children": [
           {
-            "id": "76dcc5cd7d69db00",
+            "id": "192bf8f05928dae2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classification Evaluation Metrics.md",
+                "file": "Fleeting Notes/Supervised Learning.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7d69acd9d680769d",
+            "id": "a1ff3f0e8be2f96a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classification Evaluation Metrics.md",
+                "file": "Data Science/Machine Learning/Logistic Regression.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "b31167fe8659dc0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fleeting Notes/XGBoost Regression.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "33fe8be4b39c4771",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Notes Kanban.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -61,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "AUC",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classification Evaluation Metrics.md",
+                "file": "Notes Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Classification Evaluation Metrics.md",
+                "file": "Notes Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Classification Evaluation Metrics.md"
+                "file": "Notes Kanban.md"
               }
             }
           },
@@ -169,54 +191,54 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "7d69acd9d680769d",
+  "active": "1445aeb429301554",
   "lastOpenFiles": [
-    "Data Engineering Zoomcamp/Setup dbt cloud with bigquery.md",
-    "Developing dbt models.md",
-    "Classification Evaluation Metrics.md",
-    "Personal/Monthly Review/2023 - Month 03.md",
-    "Personal/Weekly Review/2023 - Week 10.md",
-    "Personal/Monthly Review",
-    "Template/monthly_review.md",
-    "Template/weekly_review.md",
+    "Fleeting Notes/Model Evaluation in Time Series Forecasting.md",
+    "Notes Kanban.md",
+    "Data Science/Machine Learning/Clustering Evaluation Metrics.md",
+    "Data Science/Machine Learning/Embeddings.md",
+    "Data Science/Machine Learning/Classification Evaluation Metrics.md",
+    "Fleeting Notes/K-Means Clustering.md",
+    "Fleeting Notes/Hierarchical Clustering.md",
+    "Fleeting Notes/Decision Tree Classification.md",
+    "Fleeting Notes/DBSCAN Clustering.md",
+    "Fleeting Notes/Linear Regression.md",
+    "Fleeting Notes/Gradient Descent.md",
+    "Fleeting Notes/XGBoost Regression.md",
+    "Data Science/Machine Learning/Logistic Regression.md",
+    "Data Splitting.md",
+    "Fleeting Notes/Supervised Learning.md",
+    "Data Science/Machine Learning/Resampling.md",
+    "Fleeting Notes/Variable Scaling Technique.md",
+    "Fleeting Notes/Scikit-learn pipeline.md",
+    "Fleeting Notes/ROC-AUC and AUPRC.md",
+    "Fleeting Notes/Ensemble Method.md",
+    "Image/logreg_cost-function7.webp",
+    "Image/logreg_cost-function7.webp.crdownload",
+    "Image/logreg_cost-function6.webp",
+    "Image/logreg_cost-function6.webp.crdownload",
+    "Image/logreg_cost-function5.webp",
+    "Image/logreg_cost-function5.webp.crdownload",
+    "Image/logreg_cost-function4.webp",
+    "Image/logreg_cost-function4.webp.crdownload",
+    "Image/logreg_cost-function3.webp",
+    "Image/logreg_cost-function3.webp.crdownload",
+    "Image/logreg_cost-function2.webp",
+    "Image/logreg_cost-function2.webp.crdownload",
+    "Image/logreg_cost-function1.webp",
+    "Image/logreg_cost-function1.webp.crdownload",
+    "Image/logreg_calc4.webp",
+    "Image/logreg_calc4.webp.crdownload",
+    "Image/logreg_calc3.webp",
+    "Image/logreg_calc3.webp.crdownload",
+    "Image/logreg_calc2.webp",
+    "Image/logreg_calc1.webp.crdownload",
     "Article to Read.md",
     "Template/notes.md",
-    "2023-W10.md",
-    "Personal/Weekly Review",
-    "Personal",
-    "Untitled Kanban.md",
-    "test.md",
-    "Fleeting Notes/Boosting Algorithm.md",
-    "Fleeting Notes/Ensemble Method.md",
-    "Variable Scaling Technique.md",
-    "Model Evaluation in Time Series Forecasting.md",
-    "Others/Product Metrics.md",
-    "Fleeting Notes/Ace Data Science Interview.md",
-    "Data Engineering Zoomcamp/ETL vs ELT.md",
-    "Others",
-    "ROC-AUC and AUPRC.md",
-    "Image/Pasted image 20230309110026.png",
-    "Data Science/Machine Learning/Regression Evaluation Metrics.md",
-    "Excalidraw/Drawing 2023-03-07 20.56.29.excalidraw.md",
-    "Untitled.canvas",
-    "2023-03-07.md",
-    "Excalidraw",
-    "Fleeting Notes/T-test.md",
-    "README.md",
-    "Fleeting Notes",
     "Data Engineering Zoomcamp/dbt (data build tool).md",
-    "Template",
-    "Data Engineering Zoomcamp",
-    "Image/Pasted image 20230303083003.png",
-    "Image/Pasted image 20230301203446.png",
-    "Image/Pasted image 20230301202920.png",
-    "Image/Elmo_embedding.gif",
-    "Image/Elmo_embedding.gif.crdownload",
-    "Image/Pasted image 20230301203221.png",
-    "Image/Pasted image 20230301203141.png",
-    "Image/Pasted image 20230301203109.png",
-    "Image/Pasted image 20230301202940.png",
-    "Pasted image 20230225210657.png",
-    "Image"
+    "Fleeting Notes/Ace Data Science Interview.md",
+    "Data Engineering Zoomcamp/Setup dbt cloud with bigquery.md",
+    "Developing dbt models.md",
+    "Untitled.canvas"
   ]
 }

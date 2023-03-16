@@ -9,17 +9,23 @@ here are some commonly used classification metrics with explanations:
 	$$Accuracy = \frac{TP + TN}{TP + TN + FP + FN}$$
 	where $TP$ = true positives, $TN$ = true negatives, $FP$ = false positives, $FN$ = false negatives.
 
-2. **Precision**: Precision is the proportion of true positives (correctly predicted positive samples) among all samples that are predicted as positive. It measures the ability of the classifier to avoid false positives. It is calculated by dividing the number of true positives by the sum of true positives and false positives.$$Precision = \frac{TP}{TP + FP}$$
-3. **Recall** (Sensitivity): Recall is the proportion of true positives among all actual positive samples in the dataset. It measures the ability of the classifier to detect positive samples. It is calculated by dividing the number of true positives by the sum of true positives and false negatives.$$Recall = Sensitivity = \frac{TP}{TP + FN}$$
-4. **F1 Score**: The F1 score is the harmonic mean of precision and recall. It combines both precision and recall into a single metric.$$F1 Score = 2 \cdot \frac{Precision \cdot Recall}{Precision + Recall}$$
-5. **ROC AUC**: The ROC (Receiver Operating Characteristic) curve is a plot of the true positive rate against the false positive rate at various threshold settings. AUC (Area Under the Curve) is the area under the ROC curve. It measures the ability of the classifier to distinguish between positive and negative samples. Higher AUC values indicate better classifier performance.$$ROC AUC = \int_{0}^{1} TPR(FPR^{-1}(t)) ,dt$$
+2. **Precision**: Precision is the proportion of true positives (correctly predicted positive samples) among all samples that are predicted as positive. It measures the ability of the classifier to avoid false positives. It is calculated by dividing the number of true positives by the sum of true positives and false positives.
+	$$Precision = \frac{TP}{TP + FP}$$
+3. **Recall** (Sensitivity): Recall is the proportion of true positives among all actual positive samples in the dataset. It measures the ability of the classifier to detect positive samples. It is calculated by dividing the number of true positives by the sum of true positives and false negatives.
+	$$Recall = Sensitivity = \frac{TP}{TP + FN}$$
+4. **F1 Score**: The F1 score is the harmonic mean of precision and recall. It combines both precision and recall into a single metric.
+	$$F1 Score = 2 \cdot \frac{Precision \cdot Recall}{Precision + Recall}$$
+5. **ROC AUC**: The ROC (Receiver Operating Characteristic) curve is a plot of the true positive rate against the false positive rate at various threshold settings. AUC (Area Under the Curve) is the area under the ROC curve. It measures the ability of the classifier to distinguish between positive and negative samples. Higher AUC values indicate better classifier performance.
+	$$ROC AUC = \int_{0}^{1} TPR(FPR^{-1}(t)) ,dt$$
 	where $TPR$ = true positive rate (i.e., recall), $FPR$ = false positive rate.
 	
-7. **Confusion Matrix**: A confusion matrix is a table that shows the number of true positives, false positives, true negatives, and false negatives for a classifier. It provides a detailed breakdown of the classifier's performance.
+6. **Confusion Matrix**: A confusion matrix is a table that shows the number of true positives, false positives, true negatives, and false negatives for a classifier. It provides a detailed breakdown of the classifier's performance.
 	![[Pasted image 20230309110026.png]]
 
-9.  **Specificity**: Specificity is the proportion of true negatives among all actual negative samples in the dataset. It measures the ability of the classifier to detect negative samples. It is calculated by dividing the number of true negatives by the sum of true negatives and false positives.$$Specificity = \frac{TN}{TN + FP}$$
-10.  **Cohen's Kappa**: Cohen's kappa is a measure of the agreement between two annotators or between an annotator and a classifier. It takes into account the possibility of agreement occurring by chance. It is calculated as (observed agreement - expected agreement) / (1 - expected agreement).$$\kappa = \frac{p_o - p_e}{1 - p_e}$$
+9.  **Specificity**: Specificity is the proportion of true negatives among all actual negative samples in the dataset. It measures the ability of the classifier to detect negative samples. It is calculated by dividing the number of true negatives by the sum of true negatives and false positives.
+	$$Specificity = \frac{TN}{TN + FP}$$
+10.  **Cohen's Kappa**: Cohen's kappa is a measure of the agreement between two annotators or between an annotator and a classifier. It takes into account the possibility of agreement occurring by chance. It is calculated as (observed agreement - expected agreement) / (1 - expected agreement).
+	$$\kappa = \frac{p_o - p_e}{1 - p_e}$$
 	where $p_o$ = observed agreement, $p_e$ = expected agreement.
 
 These metrics can help you evaluate the performance of your classification model and identify areas where it needs improvement.
@@ -40,65 +46,79 @@ Pros and cons of commonly used classification metrics:
 	-   Ignores the cost associated with false positives and false negatives
 
 2. **Precision**: 
+	
 	Pros:
 	-   Useful when the cost of false positives is high
 	-   Provides information on the classifier's ability to avoid false positives
+	
 	Cons:
 	-   Does not consider false negatives
 	-   May not be suitable for imbalanced datasets
 	-   Can be affected by changes in class distribution
 
 3. **Recall (Sensitivity)**: 
+	
 	Pros:
 	-   Useful when the cost of false negatives is high
 	-   Provides information on the classifier's ability to detect positive samples
+	
 	Cons:
 	-   Does not consider false positives
 	-   May not be suitable for imbalanced datasets
 	-   Can be affected by changes in class distribution
 
 4. **F1 Score**: 
+	
 	Pros:
 	-   Combines precision and recall into a single metric
 	-   Useful for imbalanced datasets
 	-   Helps to balance the trade-off between precision and recall
+	
 	Cons:
 	-   Does not provide information on false positives and false negatives separately
 
 5. **ROC AUC**: 
+	
 	Pros:
 	-   Provides a single measure of classifier performance
 	-   Useful for imbalanced datasets
 	-   Helps to balance the trade-off between true positives and false positives
+	
 	Cons:
 	-   Can be affected by class imbalance
 	-   Does not consider the cost associated with false positives and false negatives
 	-   May not be suitable for datasets with a large number of classes
 
 6. **Confusion Matrix**: 
+	
 	Pros:
 	-   Provides detailed information on the classifier's performance
 	-   Useful for identifying specific areas of improvement
 	-   Helps to understand the types of errors made by the classifier
+	
 	Cons:
 	-   Can be difficult to interpret for large datasets
 	-   Does not provide a single measure of classifier performance
 	-   May not be suitable for datasets with a large number of classes
 
 7. **Specificity**: 
+	
 	Pros:
 	-   Useful when the cost of false positives is high
 	-   Provides information on the classifier's ability to detect negative samples
+	
 	Cons:
 	-   Does not consider false negatives
 	-   May not be suitable for imbalanced datasets
 	-   Can be affected by changes in class distribution
 
 8. **Cohen's Kappa**: 
+	
 	Pros:
 	-   Takes into account the possibility of agreement occurring by chance
 	-   Useful for evaluating the agreement between two annotators or between an annotator and a classifier
 	-   Can be used for datasets with any number of classes
+	
 	Cons:
 	-   Can be affected by class imbalance
 	-   May not provide information on the specific areas of disagreement
@@ -155,14 +175,14 @@ Pros and cons of commonly used classification metrics:
 Actual Cat     45       15
        Dog     10       30
 ```
-.
-	From the confusion matrix, we can calculate the precision and recall of the model as follows:
-		- **Precision**: Precision measures the proportion of true positives (TP) out of all predicted positives (TP + FP). In this case, the model correctly predicted 45 cats (TP) out of 55 predicted cats (TP + FP), so the precision is 45/55 = 0.82. **This means that 82% of the images that the model classified as cats were actually cats.**
-		- **Recall**: Recall measures the proportion of true positives (TP) out of all actual positives (TP + FN). In this case, there are 60 actual cats (TP + FN), and the model correctly identified 45 of them (TP), so the recall is 45/60 = 0.75. **This means that the model identified 75% of the images that were actually cats.**
-.		
-	Interpreting these results, we can say that the model has a relatively high precision of 0.82, indicating that when it predicts an image as a cat, it is likely to be correct. However, the recall of 0.75 is somewhat lower, indicating that the model missed some of the actual cats in the dataset.
-.		
-	Based on these metrics, we can decide how to adjust the model's parameters or features to improve its performance. For example, if we want to increase the recall, we may want to adjust the threshold for classifying an image as a cat to be more lenient, so that the model is more likely to predict a cat for borderline cases. However, this may come at the expense of decreasing the precision, as the model may now also classify some dogs as cats. Alternatively, if we want to increase the precision, we may want to adjust the threshold to be more strict, so that the model only predicts an image as a cat if it is very confident that it is indeed a cat. This may increase the precision, but may also decrease the recall, as the model may miss some cats that are less clear-cut.
+
+From the confusion matrix, we can calculate the precision and recall of the model as follows:
+	- **Precision**: Precision measures the proportion of true positives (TP) out of all predicted positives (TP + FP). In this case, the model correctly predicted 45 cats (TP) out of 55 predicted cats (TP + FP), so the precision is 45/55 = 0.82. **This means that 82% of the images that the model classified as cats were actually cats.**
+	- **Recall**: Recall measures the proportion of true positives (TP) out of all actual positives (TP + FN). In this case, there are 60 actual cats (TP + FN), and the model correctly identified 45 of them (TP), so the recall is 45/60 = 0.75. **This means that the model identified 75% of the images that were actually cats.**
+		
+Interpreting these results, we can say that the model has a relatively high precision of 0.82, indicating that when it predicts an image as a cat, it is likely to be correct. However, the recall of 0.75 is somewhat lower, indicating that the model missed some of the actual cats in the dataset.
+
+Based on these metrics, we can decide how to adjust the model's parameters or features to improve its performance. For example, if we want to increase the recall, we may want to adjust the threshold for classifying an image as a cat to be more lenient, so that the model is more likely to predict a cat for borderline cases. However, this may come at the expense of decreasing the precision, as the model may now also classify some dogs as cats. Alternatively, if we want to increase the precision, we may want to adjust the threshold to be more strict, so that the model only predicts an image as a cat if it is very confident that it is indeed a cat. This may increase the precision, but may also decrease the recall, as the model may miss some cats that are less clear-cut.
 
 6.  **What is the difference between true positive rate (TPR) and false positive rate (FPR)?**
 
@@ -204,16 +224,16 @@ Actual Cat     45       15
 | Actual "apple"  | 150               | 50                 | 50                 |
 | Actual "banana" | 20                | 250                | 30                 |
 | Actual "orange" | 30                | 40                 | 230                | 
-.
-	To calculate precision and recall for the "apple" class, we look at the first row of the confusion matrix. The precision for "apple" is the number of true positives (TP) divided by the sum of true positives and false positives (FP). In this case, there are 150 true positives and 50 false positives, so the precision is 150/(150+50) = 0.75. The recall for "apple" is the number of true positives divided by the sum of true positives and false negatives (FN). In this case, there are 150 true positives and 250 false negatives, so the recall is 150/(150+250) = 0.375.
-	We can calculate precision and recall for the "banana" and "orange" classes in a similar way. Suppose the precision and recall for each class are as follows:
+
+To calculate precision and recall for the "apple" class, we look at the first row of the confusion matrix. The precision for "apple" is the number of true positives (TP) divided by the sum of true positives and false positives (FP). In this case, there are 150 true positives and 50 false positives, so the precision is 150/(150+50) = 0.75. The recall for "apple" is the number of true positives divided by the sum of true positives and false negatives (FN). In this case, there are 150 true positives and 250 false negatives, so the recall is 150/(150+250) = 0.375.
+We can calculate precision and recall for the "banana" and "orange" classes in a similar way. Suppose the precision and recall for each class are as follows:
 |          | precision | Recall |
 | -------- | --------- | ------ |
 | "apple"  | 0.75      | 0.375  |
 | "banana" | 0.714     | 0.833  |
 | "orange" | 0.794     | 0.767  |
-.
-	We can interpret these results as follows: the classifier performs best for the "orange" class, with high precision and recall. The classifier performs worst for the "apple" class, with lower precision and recall. The "banana" class has high recall but lower precision, indicating that the classifier tends to correctly identify "banana" images, but also makes some false positive predictions for this class.
+
+We can interpret these results as follows: the classifier performs best for the "orange" class, with high precision and recall. The classifier performs worst for the "apple" class, with lower precision and recall. The "banana" class has high recall but lower precision, indicating that the classifier tends to correctly identify "banana" images, but also makes some false positive predictions for this class.
 
 9. **How do classification metrics differ between binary and multiclass classification problems?**
 
