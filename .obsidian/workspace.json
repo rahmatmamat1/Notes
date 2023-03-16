@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/Supervised Learning.md",
+                "file": "Article to Read.md",
                 "mode": "source",
                 "source": false
               }
@@ -53,8 +53,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes Kanban.md",
+                "file": "Article to Read.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes Kanban.md",
+                "file": "Article to Read.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes Kanban.md"
+                "file": "Article to Read.md"
               }
             }
           },
@@ -191,8 +190,9 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "1445aeb429301554",
+  "active": "192bf8f05928dae2",
   "lastOpenFiles": [
+    "Fleeting Notes/Supervised Learning.md",
     "Fleeting Notes/Model Evaluation in Time Series Forecasting.md",
     "Notes Kanban.md",
     "Data Science/Machine Learning/Clustering Evaluation Metrics.md",
@@ -207,7 +207,6 @@
     "Fleeting Notes/XGBoost Regression.md",
     "Data Science/Machine Learning/Logistic Regression.md",
     "Data Splitting.md",
-    "Fleeting Notes/Supervised Learning.md",
     "Data Science/Machine Learning/Resampling.md",
     "Fleeting Notes/Variable Scaling Technique.md",
     "Fleeting Notes/Scikit-learn pipeline.md",

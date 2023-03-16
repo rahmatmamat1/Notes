@@ -19,3 +19,10 @@ https://towardsdatascience.com/how-to-make-40-interactive-plots-to-analyze-your-
 
 Optimizing XGBoost: A Guide to Hyperparameter Tuning
 https://medium.com/@rithpansanga/optimizing-xgboost-a-guide-to-hyperparameter-tuning-77b6e48e289d
+
+A Simple Approach to Hierarchical Time Series Forecasting with Machine Learning
+https://towardsdatascience.com/a-simple-approach-to-hierarchical-time-series-forecasting-with-machine-learning-2e180d83966c
+
+Transformer Models 101: Getting Started — Part 1
+https://towardsdatascience.com/transformer-models-101-getting-started-part-1-b3a77ccfa14d
+
