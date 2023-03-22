@@ -63,6 +63,21 @@ There are a number of variations of the procedure:
 
 This resampling method differs from the previous ones in at least two ways. The splits are not random and the assessment data set is not the remainder of the training set data once the analysis set was removed.
 
+## Questions
+
+1. **How do you choose the number of folds for cross-validation?**
+	The choice of the number of folds for cross-validation depends on several factors, including the size of the dataset, the complexity of the model, and the computational resources available.
+	
+	As a general rule, a higher number of folds (e.g., 10 or more) can provide a more accurate estimate of the model's performance, but this can also increase the computational cost of training the model. A lower number of folds (e.g., 5 or fewer) can be computationally faster, but may provide a less accurate estimate of the model's performance.
+	
+	Some common guidelines for choosing the number of folds are:
+	1.  5-fold cross-validation: This is a commonly used choice when the dataset is sufficiently large and the model is not too complex. It provides a good balance between accuracy and computational cost.
+	2.  10-fold cross-validation: This is a common choice when the dataset is smaller, or when a higher level of accuracy is required.
+	3.  Leave-one-out cross-validation: This is a computationally expensive method that can be used when the dataset is very small, or when a very accurate estimate of the model's performance is required.
+
+
+
+
 ## Related Notes
 * [[Data Splitting]]
 * [[Bootstrapping]]

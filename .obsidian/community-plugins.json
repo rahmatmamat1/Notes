@@ -2,5 +2,7 @@
   "obsidian-excalidraw-plugin",
   "table-editor-obsidian",
   "obsidian-kanban",
-  "periodic-notes"
+  "periodic-notes",
+  "obsidian-plugin-toc",
+  "obsidian-dynamic-toc"
 ]

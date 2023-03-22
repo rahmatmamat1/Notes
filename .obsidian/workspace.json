@@ -8,52 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "192bf8f05928dae2",
+            "id": "b92ee32db3477a99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Article to Read.md",
+                "file": "Ensemble Method.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a1ff3f0e8be2f96a",
+            "id": "0a82ec98505edf68",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Machine Learning/Logistic Regression.md",
+                "file": "IELTS/Multiple Choice.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b31167fe8659dc0d",
+            "id": "53163fd433e9b25d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleeting Notes/XGBoost Regression.md",
+                "file": "How to Deal with Missing Value.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "33fe8be4b39c4771",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Notes Kanban.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "AUC",
+                "query": "validation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Article to Read.md",
+                "file": "IELTS/Multiple Choice.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Article to Read.md",
+                "file": "IELTS/Multiple Choice.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Article to Read.md"
+                "file": "IELTS/Multiple Choice.md"
               }
             }
           },
@@ -190,14 +181,34 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "192bf8f05928dae2",
+  "active": "1445aeb429301554",
   "lastOpenFiles": [
-    "Fleeting Notes/Supervised Learning.md",
-    "Fleeting Notes/Model Evaluation in Time Series Forecasting.md",
     "Notes Kanban.md",
+    "Image/stacking_concept.png",
+    "Ensemble Method.md",
+    "Image/boosting_concept.png",
+    "Image/random_forest_concept.png",
+    "Image/bagging_concept.png",
+    "Image/ensemble_concept.png",
+    "IELTS/Multiple Choice.md",
+    "How to Deal with Missing Value.md",
+    "Image/true_false_notgiven_example1.png",
+    "Image/true_false_notgiven_example2.png",
+    "Pasted image 20230320170843.png",
+    "IELTS",
+    "Fleeting Notes/Bootstrapping.md",
+    "Fleeting Notes/Supervised Learning.md",
+    "Image/bootstrapping_resample.jpeg",
+    "Image/bootstrapping_resample.jpeg.crdownload",
+    "Article to Read.md",
+    "Data Science/Machine Learning/Resampling.md",
+    "Data Science/Machine Learning/Logistic Regression.md",
+    "Data Splitting.md",
+    "Data Science/Machine Learning/Classification Evaluation Metrics.md",
+    "Developing dbt models.md",
+    "Fleeting Notes/Model Evaluation in Time Series Forecasting.md",
     "Data Science/Machine Learning/Clustering Evaluation Metrics.md",
     "Data Science/Machine Learning/Embeddings.md",
-    "Data Science/Machine Learning/Classification Evaluation Metrics.md",
     "Fleeting Notes/K-Means Clustering.md",
     "Fleeting Notes/Hierarchical Clustering.md",
     "Fleeting Notes/Decision Tree Classification.md",
@@ -205,39 +216,18 @@
     "Fleeting Notes/Linear Regression.md",
     "Fleeting Notes/Gradient Descent.md",
     "Fleeting Notes/XGBoost Regression.md",
-    "Data Science/Machine Learning/Logistic Regression.md",
-    "Data Splitting.md",
-    "Data Science/Machine Learning/Resampling.md",
     "Fleeting Notes/Variable Scaling Technique.md",
     "Fleeting Notes/Scikit-learn pipeline.md",
     "Fleeting Notes/ROC-AUC and AUPRC.md",
-    "Fleeting Notes/Ensemble Method.md",
     "Image/logreg_cost-function7.webp",
     "Image/logreg_cost-function7.webp.crdownload",
-    "Image/logreg_cost-function6.webp",
     "Image/logreg_cost-function6.webp.crdownload",
-    "Image/logreg_cost-function5.webp",
     "Image/logreg_cost-function5.webp.crdownload",
-    "Image/logreg_cost-function4.webp",
     "Image/logreg_cost-function4.webp.crdownload",
-    "Image/logreg_cost-function3.webp",
     "Image/logreg_cost-function3.webp.crdownload",
-    "Image/logreg_cost-function2.webp",
     "Image/logreg_cost-function2.webp.crdownload",
-    "Image/logreg_cost-function1.webp",
     "Image/logreg_cost-function1.webp.crdownload",
-    "Image/logreg_calc4.webp",
     "Image/logreg_calc4.webp.crdownload",
-    "Image/logreg_calc3.webp",
-    "Image/logreg_calc3.webp.crdownload",
-    "Image/logreg_calc2.webp",
-    "Image/logreg_calc1.webp.crdownload",
-    "Article to Read.md",
-    "Template/notes.md",
-    "Data Engineering Zoomcamp/dbt (data build tool).md",
-    "Fleeting Notes/Ace Data Science Interview.md",
-    "Data Engineering Zoomcamp/Setup dbt cloud with bigquery.md",
-    "Developing dbt models.md",
     "Untitled.canvas"
   ]
 }
