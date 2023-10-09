@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1685d6d9ac44ca75",
+        "id": "02d2dcfc00a40549",
         "type": "tabs",
         "children": [
           {
-            "id": "b92ee32db3477a99",
+            "id": "7b98cda5ae006639",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ensemble Method.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a82ec98505edf68",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IELTS/Multiple Choice.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53163fd433e9b25d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "How to Deal with Missing Value.md",
-                "mode": "source",
+                "file": "WOTD Week 41.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
           },
@@ -73,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "validation",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,6 +62,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "08de8036a0a3e93d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -110,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IELTS/Multiple Choice.md",
+                "file": "WOTD Week 41.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IELTS/Multiple Choice.md",
+                "file": "WOTD Week 41.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IELTS/Multiple Choice.md"
+                "file": "WOTD Week 41.md"
               }
             }
           },
@@ -181,24 +164,40 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "1445aeb429301554",
+  "active": "7b98cda5ae006639",
   "lastOpenFiles": [
-    "Notes Kanban.md",
-    "Image/stacking_concept.png",
+    "Introduction to Large Language Model (LLM).md",
+    "dsasad.md",
+    "WOTD Week 41.md",
+    "Template/notes.md",
+    "Terraform Fundamentals.md",
+    "Personal/Movies and Series List.md",
+    "How to Deal with Missing Value.md",
     "Ensemble Method.md",
+    "Notes Kanban.md",
+    "Personal/IELTS/Sentences.md",
+    "Personal/IELTS/Vocabulary.md",
+    "Vocabulary.md",
+    "[.md",
+    "Vocabulary/Analyse.md",
+    "Vocabulary",
+    "Personal/IELTS/Readings.md",
+    "Excalidraw/Drawing 2023-04-06 06.55.25.excalidraw.md",
+    "Image/feature_selection_intrinsic_method.png",
+    "Feature Selection.md",
+    "Image/reading_matching_information_1.png",
+    "Image/reading_matching_information_2.png",
+    "Image/reading_yesnonotgiven_2.png",
+    "Image/reading_yesnonotgiven_1.png",
+    "Others/Product Metrics.md",
+    "Image/stacking_concept.png",
     "Image/boosting_concept.png",
     "Image/random_forest_concept.png",
     "Image/bagging_concept.png",
     "Image/ensemble_concept.png",
-    "IELTS/Multiple Choice.md",
-    "How to Deal with Missing Value.md",
-    "Image/true_false_notgiven_example1.png",
-    "Image/true_false_notgiven_example2.png",
-    "Pasted image 20230320170843.png",
-    "IELTS",
+    "Personal/IELTS",
     "Fleeting Notes/Bootstrapping.md",
     "Fleeting Notes/Supervised Learning.md",
-    "Image/bootstrapping_resample.jpeg",
     "Image/bootstrapping_resample.jpeg.crdownload",
     "Article to Read.md",
     "Data Science/Machine Learning/Resampling.md",
@@ -206,20 +205,6 @@
     "Data Splitting.md",
     "Data Science/Machine Learning/Classification Evaluation Metrics.md",
     "Developing dbt models.md",
-    "Fleeting Notes/Model Evaluation in Time Series Forecasting.md",
-    "Data Science/Machine Learning/Clustering Evaluation Metrics.md",
-    "Data Science/Machine Learning/Embeddings.md",
-    "Fleeting Notes/K-Means Clustering.md",
-    "Fleeting Notes/Hierarchical Clustering.md",
-    "Fleeting Notes/Decision Tree Classification.md",
-    "Fleeting Notes/DBSCAN Clustering.md",
-    "Fleeting Notes/Linear Regression.md",
-    "Fleeting Notes/Gradient Descent.md",
-    "Fleeting Notes/XGBoost Regression.md",
-    "Fleeting Notes/Variable Scaling Technique.md",
-    "Fleeting Notes/Scikit-learn pipeline.md",
-    "Fleeting Notes/ROC-AUC and AUPRC.md",
-    "Image/logreg_cost-function7.webp",
     "Image/logreg_cost-function7.webp.crdownload",
     "Image/logreg_cost-function6.webp.crdownload",
     "Image/logreg_cost-function5.webp.crdownload",
@@ -227,7 +212,6 @@
     "Image/logreg_cost-function3.webp.crdownload",
     "Image/logreg_cost-function2.webp.crdownload",
     "Image/logreg_cost-function1.webp.crdownload",
-    "Image/logreg_calc4.webp.crdownload",
     "Untitled.canvas"
   ]
 }

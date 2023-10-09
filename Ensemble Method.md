@@ -97,8 +97,6 @@ A stacking model for classification task:
 - In prectice, a stacking predictors predict as good as the best predictor of the base layer and sometimes outperform it by combining the different strength of these predictors.
 - Training a stacking predictor is computationally expensive
 
-
-
 ## Related Notes
 
 ## References

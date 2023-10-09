@@ -1,6 +1,8 @@
-**Title: {{title}}**
-**Created: {{date}}**
-**Tags:**
+---
+title: "{{title}}"
+tags:
+---
+
 
 
 ## Related Notes

@@ -1,0 +1,17 @@
+{
+  "dateFormat": "yyyy-MM-dd'T'HH:mm",
+  "enableCreateTime": true,
+  "headerUpdated": "Updated",
+  "headerCreated": "Created",
+  "minMinutesBetweenSaves": 1,
+  "ignoreGlobalFolder": [
+    "Template"
+  ],
+  "ignoreCreatedFolder": [],
+  "enableExperimentalHash": false,
+  "fileHashMap": {
+    "WOTD Week 41.md": "c9315641aec900cd0128a78ae28942a62faf3790915e11685d1dac9f8cadb18b",
+    "Template/notes.md": "c719d23e05d185be8f4d5757e00457f3923d0315eb18360bffafcc2a182f685c",
+    "Introduction to Large Language Model (LLM).md": "99ed776b8920f403fc5a1e53e1f3b461cbb57be58f348d4a3f79358feabd1cf8"
+  }
+}
