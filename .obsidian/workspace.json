@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "02d2dcfc00a40549",
+        "id": "efed9fdea2de3ca9",
         "type": "tabs",
         "children": [
           {
-            "id": "7b98cda5ae006639",
+            "id": "1a04644993a6899e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "WOTD Week 41.md",
-                "mode": "preview",
+                "file": "Personal/English Exercise/Word of The Day/WOTD Week 41.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "WOTD Week 41.md",
+                "file": "Personal/English Exercise/Word of The Day/WOTD Week 41.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "WOTD Week 41.md",
+                "file": "Personal/English Exercise/Word of The Day/WOTD Week 41.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "WOTD Week 41.md"
+                "file": "Personal/English Exercise/Word of The Day/WOTD Week 41.md"
               }
             }
           },
@@ -164,24 +164,25 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "7b98cda5ae006639",
+  "active": "1a04644993a6899e",
   "lastOpenFiles": [
+    "Personal/English Exercise/Vocabulary.md",
+    "Personal/English Exercise/Word of The Day/WOTD Week 41.md",
+    "Personal/English Exercise/Sentences.md",
+    "Personal/English Exercise/Word of The Day",
     "Introduction to Large Language Model (LLM).md",
     "dsasad.md",
-    "WOTD Week 41.md",
     "Template/notes.md",
     "Terraform Fundamentals.md",
     "Personal/Movies and Series List.md",
     "How to Deal with Missing Value.md",
     "Ensemble Method.md",
     "Notes Kanban.md",
-    "Personal/IELTS/Sentences.md",
-    "Personal/IELTS/Vocabulary.md",
     "Vocabulary.md",
     "[.md",
     "Vocabulary/Analyse.md",
     "Vocabulary",
-    "Personal/IELTS/Readings.md",
+    "Personal/English Exercise/Readings.md",
     "Excalidraw/Drawing 2023-04-06 06.55.25.excalidraw.md",
     "Image/feature_selection_intrinsic_method.png",
     "Feature Selection.md",
@@ -195,7 +196,7 @@
     "Image/random_forest_concept.png",
     "Image/bagging_concept.png",
     "Image/ensemble_concept.png",
-    "Personal/IELTS",
+    "Personal/English Exercise",
     "Fleeting Notes/Bootstrapping.md",
     "Fleeting Notes/Supervised Learning.md",
     "Image/bootstrapping_resample.jpeg.crdownload",
@@ -204,14 +205,12 @@
     "Data Science/Machine Learning/Logistic Regression.md",
     "Data Splitting.md",
     "Data Science/Machine Learning/Classification Evaluation Metrics.md",
-    "Developing dbt models.md",
     "Image/logreg_cost-function7.webp.crdownload",
     "Image/logreg_cost-function6.webp.crdownload",
     "Image/logreg_cost-function5.webp.crdownload",
     "Image/logreg_cost-function4.webp.crdownload",
     "Image/logreg_cost-function3.webp.crdownload",
     "Image/logreg_cost-function2.webp.crdownload",
-    "Image/logreg_cost-function1.webp.crdownload",
     "Untitled.canvas"
   ]
 }
