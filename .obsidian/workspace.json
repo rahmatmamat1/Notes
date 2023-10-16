@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "efed9fdea2de3ca9",
+        "id": "f35a292e6f000f50",
         "type": "tabs",
         "children": [
           {
-            "id": "1a04644993a6899e",
+            "id": "dc8fbe56e91a7e03",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal/English Exercise/Word of The Day/WOTD Week 41.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/English Exercise/Word of The Day/WOTD Week 41.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/English Exercise/Word of The Day/WOTD Week 41.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/English Exercise/Word of The Day/WOTD Week 41.md"
+                "file": "Image/Attention_mechanism_soft_attention.jfif.md"
               }
             }
           },
@@ -164,53 +158,53 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "1a04644993a6899e",
+  "active": "1445aeb429301554",
   "lastOpenFiles": [
-    "Personal/English Exercise/Vocabulary.md",
-    "Personal/English Exercise/Word of The Day/WOTD Week 41.md",
-    "Personal/English Exercise/Sentences.md",
-    "Personal/English Exercise/Word of The Day",
+    "Transformers - Attention is all you need.md",
+    "Pre-trained transformers - BERT and RoBERTa.md",
+    "Image/RoBERTa_eval.png",
+    "Image/RoBERTa_eval.png.crdownload",
+    "Image/RoBERTa.jpg",
+    "Image/RoBERTa.jpg.crdownload",
+    "Image/BERT.jpg",
+    "Image/BERT.jpg.crdownload",
+    "Attention Model Mechanism.md",
+    "Ensemble Method.md",
+    "Recurrent Neural Network and Language models.md",
+    "Image/attention_feedforward3.png",
+    "Image/attention_feedforward3.png.crdownload",
+    "Image/multi-head_attention2.png",
+    "Image/multi-head_attention2.png.crdownload",
+    "Image/masked_multi-head_attention.png",
+    "Image/attention_encoder.png",
+    "Image/attention_encoder.png.crdownload",
+    "Image/attention_decoder.png",
+    "Image/attention_decoder.png.crdownload",
+    "Image/attention_feedforward2.png",
+    "Image/attention_feedforward2.png.crdownload",
+    "Image/attention_feedforward.png",
+    "Image/attention_feedforward.png.crdownload",
+    "Image/multi-head_attention.png.crdownload",
+    "Image/Attention_mechanism_soft_attention.jfif.md",
+    "README.md",
+    "Introduction to Large Language Models.md",
+    "Image/RNN_Architecture.png.md",
+    "Bootcamp Overview.md",
     "Introduction to Large Language Model (LLM).md",
+    "Personal/English Exercise/Word of The Day/WOTD Week 41.md",
+    "Personal/English Exercise/Vocabulary.md",
+    "Personal/English Exercise/Sentences.md",
     "dsasad.md",
     "Template/notes.md",
     "Terraform Fundamentals.md",
     "Personal/Movies and Series List.md",
     "How to Deal with Missing Value.md",
-    "Ensemble Method.md",
     "Notes Kanban.md",
     "Vocabulary.md",
     "[.md",
     "Vocabulary/Analyse.md",
-    "Vocabulary",
     "Personal/English Exercise/Readings.md",
     "Excalidraw/Drawing 2023-04-06 06.55.25.excalidraw.md",
-    "Image/feature_selection_intrinsic_method.png",
-    "Feature Selection.md",
-    "Image/reading_matching_information_1.png",
-    "Image/reading_matching_information_2.png",
-    "Image/reading_yesnonotgiven_2.png",
-    "Image/reading_yesnonotgiven_1.png",
-    "Others/Product Metrics.md",
-    "Image/stacking_concept.png",
-    "Image/boosting_concept.png",
-    "Image/random_forest_concept.png",
-    "Image/bagging_concept.png",
-    "Image/ensemble_concept.png",
-    "Personal/English Exercise",
-    "Fleeting Notes/Bootstrapping.md",
-    "Fleeting Notes/Supervised Learning.md",
-    "Image/bootstrapping_resample.jpeg.crdownload",
-    "Article to Read.md",
-    "Data Science/Machine Learning/Resampling.md",
-    "Data Science/Machine Learning/Logistic Regression.md",
-    "Data Splitting.md",
-    "Data Science/Machine Learning/Classification Evaluation Metrics.md",
-    "Image/logreg_cost-function7.webp.crdownload",
-    "Image/logreg_cost-function6.webp.crdownload",
-    "Image/logreg_cost-function5.webp.crdownload",
-    "Image/logreg_cost-function4.webp.crdownload",
-    "Image/logreg_cost-function3.webp.crdownload",
-    "Image/logreg_cost-function2.webp.crdownload",
     "Untitled.canvas"
   ]
 }

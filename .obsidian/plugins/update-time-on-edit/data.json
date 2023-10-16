@@ -11,7 +11,13 @@
   "enableExperimentalHash": false,
   "fileHashMap": {
     "Template/notes.md": "c719d23e05d185be8f4d5757e00457f3923d0315eb18360bffafcc2a182f685c",
-    "Introduction to Large Language Model (LLM).md": "99ed776b8920f403fc5a1e53e1f3b461cbb57be58f348d4a3f79358feabd1cf8",
-    "Personal/English Exercise/Word of The Day/WOTD Week 41.md": "cc991a51d159a296c4bb282d8e4c511b97d8748018790516552920b7e0061aab"
+    "Personal/English Exercise/Word of The Day/WOTD Week 41.md": "cc991a51d159a296c4bb282d8e4c511b97d8748018790516552920b7e0061aab",
+    "Ensemble Method.md": "8c8946931d4cef1f01c8ec06389083cceb6118041ff2f1eaf5b6af1cd6799a27",
+    "Bootcamp Overview.md": "c952160b26b01ab8f6e411a917e026fc58a99d14cfbd42b186564d4dd69e4ed5",
+    "Introduction to Large Language Models.md": "65f299055b534781cd935d454ad98250db24cc4394679de3a0fc4343005de48a",
+    "Recurrent Neural Network and Language models.md": "bfb3d15fab70647bc241f2175e3a261c6c20225d2ca759e241c290860136f035",
+    "Attention Model Mechanism.md": "2605c7987d744f828074b45189277bb844e381f458bfc3b942d03a38c84d1d7b",
+    "Transformers - Attention is all you need.md": "b082e95f83ce5ba68cc47fa2f3810aaa9f543c43f9d3d2e14755acb30789570c",
+    "Pre-trained transformers - BERT and RoBERTa.md": "dba771b56a00e2e1e68bd9c01c5b19e51bdfd4c6dce083e7bc38ca0b0fec6bf8"
   }
 }

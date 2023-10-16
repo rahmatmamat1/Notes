@@ -1,3 +1,7 @@
+---
+Created: 2023-03-01T21:07
+Updated: 2023-10-09T19:07
+---
 **Title: Ensemble Method**
 **Created: 22-03-2023**
 **Tags:**
@@ -8,7 +12,7 @@ Ensemble methods are machine learning techniques that combine the predictions of
 
 if one base learner is erroneous, it can be auto-corrected by others, so the final model is typically less prone to overfitting and more robust, unlikely to be influenced by small changes in the training data.
 
-![](ensemble_concept.png)
+![](/Image/ensemble_concept.png)
 
 There are several types of ensemble methods, including: Bagging, Boosting, Stacking
 
